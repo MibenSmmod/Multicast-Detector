@@ -24,8 +24,8 @@ from colored import fg, bg, attr
 ## AUTHENTICATION Options:  Uncomment the section you wish to use whie other sections are commented out
 ## 1) Static Username and password, must have empty token variable (3 lines below)
 XIQ_token = ""
-XIQ_username = "mikerieben+50@gmail.com"  # Enter your ExtremeCloudIQ Username "xxxx"
-XIQ_password = "44vEM2KIoqoCDWDu2Jyl"  # Enter your ExtremeCLoudIQ password "xxxx"
+XIQ_username = "username@contoso.com"  # Enter your ExtremeCloudIQ Username "xxxx"
+XIQ_password = "xxxxxxxxxxxx"  # Enter your ExtremeCLoudIQ password "xxxx"
 ## 2) Prompt user to enter credentials, must have empty token variable (4 lines below)
 # print ("Enter your XIQ login credentials ")
 # XIQ_token = ""
@@ -41,12 +41,12 @@ XIQ_password = ""
 ## Credentials XIQ > Global Settings > Device Management Settings > Check to show password
 user = "admin"  ## this is always "admin" for IQEngine/HiveOS
 ##Choose one method below
-passwd = "Aerohive123"  ## definition is stored in between "xxxx"
+passwd = "xxxxxxxxxx"  ## definition is stored in between "xxxx"
 # passwd = input("Enter the Device Management Password: ") ##prompt for user input option instead of static above
 ## Device Management Options END
 
 ## Device Hostnames
-apHostname = ["Site1-Prod-MstBed","AP150W","BADHOSTNAME","Site1-Lab-AP1"] ##multiple hostnames comma separated between ["xxxx","xxxx"], single hostname: ["xxxx"] without commas
+apHostname = ["Site1-Prod-MstBed","BADHOSTNAME"] ##multiple hostnames comma separated between ["xxxx","xxxx"], single hostname: ["xxxx"] without commas
 
 ##************************* No edits below this line ********************************************************************************
 ##Global Variables
