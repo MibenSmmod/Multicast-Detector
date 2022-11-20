@@ -5,9 +5,8 @@ This script will use a list of device hostnames you provide and run a specific s
 
 ### Requirements
 Python 3.6 or higher is recommended for this script.
-The needed modules are listed in the requirements.txt file and can be installed from there using
-  pip install -r requirements.txt
-  '''
+The needed modules are listed in the requirements.txt file and can be installed from there using <br />
+CLI:  pip install -r requirements.txt <br />
 See API Getting Started Guide if you need further assistance understanding this process.
 https://github.com/ExtremeNetworksSA/API_Getting_Started
 
@@ -15,21 +14,21 @@ https://github.com/ExtremeNetworksSA/API_Getting_Started
 You'll need to modify the script in a few places to establish the desired settings and to provide a list of hostnames
 
 #### Lines 24 ~ 38 are three XIQ authenitcation options (static, prompt, or token)
-1) Lines 26 ~ 28 (uncomment to provide static XIQ credentials in the code)
-XIQ_token = ""
-XIQ_username = "name@contoso.com"
-XIQ_password = "P@$$w0rd"
+1) Lines 26 ~ 28 (uncomment to provide static XIQ credentials in the code)<br />
+XIQ_token = ""<br />
+XIQ_username = "name@contoso.com"<br />
+XIQ_password = "P@$$w0rd"<br />
 
-2) Lines 30 ~ 33 (uncomment to prompt the user to provide XIQ credentials)
-print ("Enter your XIQ login credentials ")
-XIQ_token = ""
-XIQ_username = input("Email: ")
-XIQ_password = getpass.getpass("Password: ")
+2) Lines 30 ~ 33 (uncomment to prompt the user to provide XIQ credentials)<br />
+print ("Enter your XIQ login credentials ")<br />
+XIQ_token = ""<br />
+XIQ_username = input("Email: ")<br />
+XIQ_password = getpass.getpass("Password: ")<br />
 
-3) Lines 35 ~ 37 (uncomment to provide a token you generated from api.extremecloudiq.com)
-XIQ_token = "xxxxVeryLongStringOfCharactersxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-XIQ_username = ""
-XIQ_password = ""
+3) Lines 35 ~ 37 (uncomment to provide a token you generated from api.extremecloudiq.com)<br />
+XIQ_token = "xxxxVeryLongStringOfCharactersxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"<br />
+XIQ_username = ""<br />
+XIQ_password = ""<br />
 
 Use only one method above.  Use # character to comment out the unused code.
 
