@@ -32,7 +32,7 @@ XIQ_password = ""<br />
 
 Use only one method above.  Use # character to comment out the unused code.
 
-#### Lines 41 Enter access point hostnames
+#### Line 41 Enter access point hostnames
 Multiple hostnames comma separated between ["xxxx","xxxx"], single hostname: ["xxxx"] without commas<br />
 - apHostname = ["Site1-Prod-Mst","Site1-Lab-AP1","Site1-Lab-AP2"] <-- multiple devices<br />
 - apHostname = ["Site1-Prod-Mst"] <-- single devices<br />
