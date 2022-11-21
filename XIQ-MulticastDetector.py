@@ -8,7 +8,7 @@ from colored import fg, bg, attr
 ## written by:   Mike Rieben
 ## e-mail:       mrieben@extremenetworks.com
 ## date:         November, 2022
-## version:      1.0
+## version:      1.1
 ############################################################################################################
 ## This script will run against access point(s) using provided hostname(s).  It will determine if there's excessive
 ## multicast in the environment on WiFi0 & WiFi1 interfaces.  If desired it can implement rate limiting commands.
