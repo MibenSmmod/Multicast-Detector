@@ -38,7 +38,7 @@ XIQ_password = "xxxxxxxxxxxx"  # Enter your ExtremeCLoudIQ password "xxxx"
 ## Authentication Options END
 
 ## Device Hostnames
-apHostname = ["Site1-Prod-AP1","Site1-Prod-AP2"] ##multiple hostnames comma separated between ["xxxx","xxxx"], single hostname: ["xxxx"] without commas
+apHostname = ["Online-AP","Offline-AP","Bad-Hostname"] ##multiple hostnames comma separated between ["xxxx","xxxx"], single hostname: ["xxxx"] without commas
 
 ##************************* No edits below this line ********************************************************************************
 ##Global Variables
