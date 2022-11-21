@@ -33,9 +33,9 @@ XIQ_password = ""<br />
 Use only one method above.  Use # character to comment out the unused code.
 
 #### Lines 41 Enter access point hostnames
-Multiple hostnames comma separated between ["xxxx","xxxx"], single hostname: ["xxxx"] without commas
-apHostname = ["Site1-Prod-Mst","Site1-Lab-AP1","Site1-Lab-AP2"] <-- multiple devices
-apHostname = ["Site1-Prod-Mst"] <-- single devices
+Multiple hostnames comma separated between ["xxxx","xxxx"], single hostname: ["xxxx"] without commas<br />
+apHostname = ["Site1-Prod-Mst","Site1-Lab-AP1","Site1-Lab-AP2"] <-- multiple devices<br />
+apHostname = ["Site1-Prod-Mst"] <-- single devices<br />
 
 ### Remove Rate Limit CLI
 Simply go to XIQ and push a complete configuration update and it will wipe the CLI commands added by this script.  Assuming you have not implemented the S-CLI below in XIQ.  You can manually remove the commands via CLI:  
