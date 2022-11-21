@@ -32,14 +32,10 @@ XIQ_password = ""<br />
 
 Use only one method above.  Use # character to comment out the unused code.
 
-#### Lines 40 ~ 46 are Device Management Credential Optoins (static or prompt)
-user = 'admin' (do not modify)
-
-1) Line 44 (uncomment to provide static password)
-passwd = "xxxxxxxx"
-
-2) Line 45 (uncomment to prompt the user to enter password)
-passwd = input("Enter the Device Management Password: ")
+#### Lines 41 Enter access point hostnames
+Multiple hostnames comma separated between ["xxxx","xxxx"], single hostname: ["xxxx"] without commas
+apHostname = ["Site1-Prod-Mst","Site1-Lab-AP1","Site1-Lab-AP2"] <-- multiple devices
+apHostname = ["Site1-Prod-Mst"] <-- single devices
 
 ### Remove Rate Limit CLI
 Simply go to XIQ and push a complete configuration update and it will wipe the CLI commands added by this script.  Assuming you have not implemented the S-CLI below in XIQ.  You can manually remove the commands via CLI:  
