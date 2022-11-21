@@ -32,21 +32,13 @@ XIQ_password = "xxxxxxxxxxxx"  # Enter your ExtremeCLoudIQ password "xxxx"
 # XIQ_username = input("Email: ")
 # XIQ_password = getpass.getpass("Password: ")
 ## 3) TOKEN generation from api.extremecloudiq.com (Swagger):  "token".  Must have empty username and password variables (3 lines below)
-XIQ_token = "xxxxxxxxx"
-XIQ_username = ""
-XIQ_password = ""
+# XIQ_token = "xxxxxxxxx"
+# XIQ_username = ""
+# XIQ_password = ""
 ## Authentication Options END
 
-## Device Management Options:  Static entry or ask user to input
-## Credentials XIQ > Global Settings > Device Management Settings > Check to show password
-user = "admin"  ## this is always "admin" for IQEngine/HiveOS
-##Choose one method below
-passwd = "xxxxxxxxxx"  ## definition is stored in between "xxxx"
-# passwd = input("Enter the Device Management Password: ") ##prompt for user input option instead of static above
-## Device Management Options END
-
 ## Device Hostnames
-apHostname = ["Site1-Prod-MstBed","BADHOSTNAME"] ##multiple hostnames comma separated between ["xxxx","xxxx"], single hostname: ["xxxx"] without commas
+apHostname = ["Site1-Prod-AP1","Site1-Prod-AP2"] ##multiple hostnames comma separated between ["xxxx","xxxx"], single hostname: ["xxxx"] without commas
 
 ##************************* No edits below this line ********************************************************************************
 ##Global Variables
